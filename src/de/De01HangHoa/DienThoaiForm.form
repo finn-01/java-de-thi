@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lMauSac" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="lId" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="lDungLuong" alignment="1" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="lNhaSX" alignment="1" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="lGia" alignment="1" min="-2" pref="83" max="-2" attributes="0"/>
+                  <Component id="lTen" alignment="1" min="-2" pref="83" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tId" min="-2" pref="241" max="-2" attributes="0"/>
+                  <Component id="tMauSac" min="-2" pref="241" max="-2" attributes="0"/>
+                  <Component id="tDungLuong" min="-2" pref="241" max="-2" attributes="0"/>
+                  <Component id="tNhaSX" min="-2" pref="241" max="-2" attributes="0"/>
+                  <Component id="tGia" min="-2" pref="241" max="-2" attributes="0"/>
+                  <Component id="tTen" min="-2" pref="241" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lTitle" min="-2" pref="117" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="bThem" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="bLuu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lTitle" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bThem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bLuu" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lId" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tId" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lTen" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tTen" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lGia" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tGia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lNhaSX" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tNhaSX" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lDungLuong" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tDungLuong" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lMauSac" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="tMauSac" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lTitle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dien Thoai"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lGia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ten"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lDungLuong">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dung luong"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lNhaSX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nha SX"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lMauSac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mau sac"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bThem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Them"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bThemActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="bLuu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Luu"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bLuuActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tId">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tTen">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tGia">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tGiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tNhaSX">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tDungLuong">
+    </Component>
+    <Component class="javax.swing.JTextField" name="tMauSac">
+    </Component>
+  </SubComponents>
+</Form>
