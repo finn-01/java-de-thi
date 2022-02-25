@@ -5,6 +5,7 @@
  */
 package de.ToaDo;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -18,9 +19,10 @@ public class DoanThang extends Diem{
     public DoanThang() {
     }
 
-    public DoanThang(Diem diemA, Diem diemB) {
+    public DoanThang(Diem diemA, Diem diemB, double doDai) {
         this.diemA = diemA;
         this.diemB = diemB;
+        doDai = chieuDai(diemA, diemB);
     }
 
     public DoanThang(Diem diemA, Diem diemB, int x, int y) {
@@ -47,7 +49,7 @@ public class DoanThang extends Diem{
 
     @Override
     public String toString() {
-        return "DoanThang{" + "diemA=" + diemA + ", diemB=" + diemB + '}';
+        return "DoanThang{" + "diemA=" + diemA + ", diemB=" + diemB + ", do dai=" + chieuDai(diemA, diemB) + '}';
     }
 
     
@@ -60,15 +62,24 @@ public class DoanThang extends Diem{
         System.out.println("Diem thu 2: ");
         Diem b = addDiem();
         
-        DoanThang d = new DoanThang(a, b);
-        System.out.println(d.toString());
+        DoanThang d = new DoanThang(a, b, chieuDai(a, b));
+        //System.out.println(d.toString());
         return d;
     }
     
-     public double chieuDai(Diem diemA, Diem diemB){
+     public static double chieuDai(Diem diemA, Diem diemB){
          double a = (diemB.getX() - diemA.getX());
          double b = (diemB.getY() - diemB.getY());
          
          return Math.sqrt(a * a + b * b);
      }
+     
+     public ArrayList<Double> getMin(){
+         ArrayList<Double> list = new ArrayList<>();
+         
+         list.add(chieuDai(diemA, diemB));
+         
+         return list;
+     }
+             
 }
