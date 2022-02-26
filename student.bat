@@ -1,1 +1,1 @@
-Person{hoTen=Sam, ngaySinh=2001, diaChi=Hanoi, gioiTinh=Nam, maSV=1, email=2, diemTongKet=3.0}
+Person{hoTen=Finn, ngaySinh=2001, diaChi=Hanoi, gioiTinh=Nam, maSV=AT1604**, email=contact@finnnguyen.com, diemTongKet=10.0}
